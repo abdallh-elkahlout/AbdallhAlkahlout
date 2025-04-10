@@ -74,7 +74,8 @@
                   <div class="download-loader hidden"></div>
                 </div>
                 <a
-                  href="/assets/abdallh_alkahlout.pdf"
+                  href="https://drive.google.com/file/d/1KCvl4bAbYqoReeG1B7P8FcGKe9uZyo9Z/view?usp=sharing"
+                  target="_blank"
                   download="abdallh_alkahlout.pdf"
                   class="pl-2 text-primary"
                   >Download resume</a
@@ -85,7 +86,7 @@
         </div>
         <div class="mt-20">
           <figure
-            class="relative overflow-hidden w-full max-w-sm mx-auto  transition-transform duration-500 hover:scale-105 rounded-3xl"
+            class="relative overflow-hidden w-full max-w-sm mx-auto transition-transform duration-500 hover:scale-105 rounded-3xl"
           >
             <div class="rounded-3xl overflow-hidden">
               <img
@@ -94,7 +95,9 @@
                 class="w-full h-auto object-cover"
               />
             </div>
-            <p class="text-center text-primary text-2xl font-bold">Front-End Developer</p>
+            <p class="text-center text-primary text-2xl font-bold">
+              Front-End Developer
+            </p>
           </figure>
         </div>
       </div>

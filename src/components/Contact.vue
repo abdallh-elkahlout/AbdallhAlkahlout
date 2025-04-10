@@ -29,11 +29,12 @@
 
         <!-- فورم الاتصال -->
         <div
-          class="lg:col-span-2 bg-primary rounded-lg sm:p-10 p-4 z-10 max-lg:order-1 max-lg:mb-8"
+          class="lg:col-span-2 bg-primary rounded-lg sm:p-10 p-4 z-10 max-lg:order-1 max-lg:mb-8 "
           data-aos="fade-up"
+          style="height: 450px;"
         >
           <form id="contact-form" @submit="sendEmail">
-            <div class="max-w-md mx-auto space-y-3">
+            <div class="max-w-md mx-auto space-y-3 mt-5">
               <input
                 name="name"
                 type="text"
