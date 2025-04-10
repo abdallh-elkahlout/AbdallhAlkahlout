@@ -19,7 +19,7 @@
             data-aos="fade-up"
             class="flex flex-col items-center justify-center rounded-lg w-full p-4 text-center bg-white cursor-pointer hover:bg-gray-100 transition"
           >
-            <img :src="element.icon" alt="data" height="50" width="50" />
+            <img :src="element.icon" alt="data" height="40" width="40" />
             <h4 class="text-gray-800 text-base font-bold mt-0">
               {{ element.title }}
             </h4>
@@ -78,6 +78,8 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
+import KhamsatIcon from "../assets/khamsat.png";
+import MostaqlIcon from "../assets/mostaql.png";
 
 // استيراد مكتبة EmailJS مباشرة
 import emailjs from "emailjs-com";
@@ -110,11 +112,28 @@ const data = [
     info: "abdallh-elkahlout",
     link: "https://www.linkedin.com/in/abdallh-elkahlout-789b08234/",
   },
+  {
+    id: 5,
+    icon: KhamsatIcon,
+    title: "Khamsat",
+    info: "abdallh_elkahlout",
+    link: "https://khamsat.com/user/abdallh_elkahlout",
+  },
+  {
+    id: 6,
+    icon: MostaqlIcon,
+    title: "Mostaql",
+    info: "abdallh_kahlout",
+    link: "https://mostaql.com/u/abdallh_kahlout",
+  },
 ];
 
 // التعامل مع الضغط على كروت البيانات
 const handleCardClick = (element) => {
-  if (element.title === "chat to me") {
+  if (element.title === "call me") {
+    const phoneNumber = element.info.replace(/\s/g, "");
+    window.location.href = `tel:${phoneNumber}`;
+  } else if (element.title === "chat to me") {
     window.location.href = `mailto:${element.info}`;
   } else if (element.link) {
     window.open(element.link, "_blank");
@@ -125,26 +144,20 @@ const handleCardClick = (element) => {
 const sendEmail = (e) => {
   e.preventDefault();
 
-  emailjs
-    .sendForm(
-      "service_doyg1b4", // ← غيّر هذا
-      "template_6e74j8o", // ← غيّر هذا
-      e.target
-    )
-    .then(
-      () => {
-        alert("🚀 تم إرسال الرسالة بنجاح!");
-        e.target.reset();
-      },
-      (error) => {
-        alert("❌ حدث خطأ أثناء الإرسال: " + error.text);
-      }
-    );
+  emailjs.sendForm("service_doyg1b4", "template_6e74j8o", e.target).then(
+    () => {
+      alert("🚀 تم إرسال الرسالة بنجاح!");
+      e.target.reset();
+    },
+    (error) => {
+      alert("❌ حدث خطأ أثناء الإرسال: " + error.text);
+    }
+  );
 };
 
 // بدء مكتبة EmailJS
 onMounted(() => {
-  emailjs.init("ILz8KOwHyIRZ9K7Za"); // ← غيّر هذا
+  emailjs.init("ILz8KOwHyIRZ9K7Za");
 });
 </script>
 
