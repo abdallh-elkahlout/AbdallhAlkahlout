@@ -70,6 +70,16 @@ const projects = ref([
   },
   {
     id: 2,
+    image: "/contacts.jpg",
+    title: "Contacts Manager",
+    category: "Web App",
+    description:
+      "An advanced and user-friendly web application for contact management, developed using Vue.js. The platform enables users to effortlessly create, edit, view, and delete contact records, featuring a smart search functionality that allows filtering contacts by name.",
+    gitUrl: "https://github.com/abdallh-elkahlout/contact-manager",
+    webUrl: "https://contact-manager-nine-lac.vercel.app/contacts",
+  },
+  {
+    id: 2,
     image: "/oudi.jpg",
     title: "Oudi Perfume",
     category: "Web App",
