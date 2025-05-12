@@ -19,7 +19,7 @@
           >
             <span class="text-primary">Front-End Developer</span> dedicated to
             crafting user-friendly and visually appealing digital experiences.
-            As a Computer Science student, I blend academic knowledge with
+            As a computer science graduate, I blend academic knowledge with
             hands-on expertise in technologies like HTML, CSS, JavaScript, and
             frameworks such as VueJs and Tailwind CSS. I’m committed to building
             responsive, elegant websites that showcase creativity and
