@@ -48,5 +48,9 @@ const Skills = ref([
     id: 7,
     icon: "https://img.icons8.com/fluency/48/vite.png",
   },
+  {
+    id: 8,
+    icon: "https://static-00.iconduck.com/assets.00/vuetify-icon-1793x2048-xtqk92sz.png",
+  },
 ]);
 </script>
