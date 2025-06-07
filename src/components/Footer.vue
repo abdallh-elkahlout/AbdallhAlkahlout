@@ -4,7 +4,8 @@
       <div class="text-3xl font-bold flex">
         <img src="../assets/logo.png" alt="" class="w-16 h-16 rounded-full overflow-hidden">
       </div>
-      <p class="mt-3 ">All right reseved</p>
+      <p class="mt-3 ">&copy; {{ new Date().getFullYear() }} Abdallh Alkahlout. All Rights
+              Reserved</p>
     </div>
   </footer>
 </template>
