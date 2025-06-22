@@ -74,7 +74,7 @@
                   <div class="download-loader hidden"></div>
                 </div>
                 <a
-                  href="https://drive.google.com/file/d/1jSS-8GyLHvSDZUGt6XUT4bTeY-EDp-hK/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/10HxLcy-UB37nv_agU7Vf5SY6OiQDTlcT/view?usp=drive_link"
                   target="_blank"
                   download="abdallh_alkahlout.pdf"
                   class="pl-2 text-primary"
