@@ -74,7 +74,7 @@ const projects = ref([
     title: "Ellamart Store",
     category: "Web App",
     description:
-      "The website is a comprehensive interface for a school management system, featuring sections like an introduction to the school, services, educational stages, and a contact section. It was developed using Vue.js for a modern, dynamic user experience.",
+      "Ella Store: Developed using Pinia, Vue.js, and Vuetify, it features a modern and user-friendly interface. It offers precise product categorization with dedicated pages for each category, along with full shopping cart functionalities for a seamless shopping experience.",
     gitUrl: "https://github.com/abdallh-elkahlout/ella-store",
     webUrl: "https://ella-store-smoky.vercel.app/",
   },
