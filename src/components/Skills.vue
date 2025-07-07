@@ -50,7 +50,7 @@ const Skills = ref([
   },
   {
     id: 8,
-    icon: "https://static-00.iconduck.com/assets.00/vuetify-icon-1793x2048-xtqk92sz.png",
+    icon: "https://img.icons8.com/?size=100&id=coFje4JDyijL&format=png&color=000000",
   },
 ]);
 </script>
