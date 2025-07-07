@@ -10,6 +10,7 @@
       class="py-8 px-4 sm:px-8 md:px-12 lg:px-16 grid grid-cols-1 md:grid-cols-2 gap-6 pt-10"
     >
       <div
+        style="border-radius: 30px"
         data-aos="fade-up"
         v-for="element in projects"
         :key="element.id"
@@ -90,6 +91,16 @@ const projects = ref([
   },
   {
     id: 4,
+    image: "/dashboard.png",
+    title: "Simple Dashboard",
+    category: "Web App",
+    description:
+      "Simple Dashboard is a minimalistic front-end design project showcasing a clean and modern user interface built with Vue.js 3 and Vuetify. It leverages Vue Router for seamless navigation between views. The project focuses on demonstrating proficiency in creating visually appealing layouts using Vuetify's component library and CSS classes, with a simple task management interface as a proof of concept. This project is ideal for showcasing front-end development skills with modern Vue.js tools",
+    gitUrl: "https://github.com/abdallh-elkahlout/simple-dashboard",
+    webUrl: "https://simple-dashboard-pink.vercel.app/",
+  },
+  {
+    id: 5,
     image: "/oudi.jpg",
     title: "Oudi Perfume",
     category: "Web App",
@@ -99,7 +110,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/oudi/",
   },
   {
-    id: 5,
+    id: 6,
     image: "/store.jpg",
     title: "Store",
     category: "Web App",
@@ -109,7 +120,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/store/",
   },
   {
-    id: 6,
+    id: 7,
     image: "/foxclore.jpg",
     title: "foxclore",
     category: "Web App",
@@ -119,7 +130,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/Foxclore/",
   },
   {
-    id: 7,
+    id: 8,
     image: "acne.jpg",
     title: "Acne",
     category: "Web App",
@@ -129,7 +140,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/acne/",
   },
   {
-    id: 8,
+    id: 9,
     image: "/bondi.jpg",
     title: "Bondi",
     category: "Web App",
@@ -139,7 +150,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/bondi/",
   },
   {
-    id: 9,
+    id: 10,
     image: "/bootcamp.jpg",
     title: "Frontend Bootcamp",
     category: "Web App",
@@ -149,7 +160,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/Frontend-Bootcamp/",
   },
   {
-    id: 10,
+    id: 11,
     image: "/medcare.jpg",
     title: "Medcare",
     category: "Web App",
