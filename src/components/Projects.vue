@@ -81,16 +81,6 @@ const projects = ref([
   },
   {
     id: 3,
-    image: "/contacts.jpg",
-    title: "Contacts Manager",
-    category: "Web App",
-    description:
-      "An advanced and user-friendly web application for contact management, developed using Vue.js. The platform enables users to effortlessly create, edit, view, and delete contact records, featuring a smart search functionality that allows filtering contacts by name.",
-    gitUrl: "https://github.com/abdallh-elkahlout/contact-manager",
-    webUrl: "https://contact-manager-nine-lac.vercel.app/contacts",
-  },
-  {
-    id: 4,
     image: "/dashboard.png",
     title: "Simple Dashboard",
     category: "Web App",
@@ -100,7 +90,7 @@ const projects = ref([
     webUrl: "https://simple-dashboard-pink.vercel.app/",
   },
   {
-    id: 5,
+    id: 4,
     image: "/oudi.jpg",
     title: "Oudi Perfume",
     category: "Web App",
@@ -110,7 +100,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/oudi/",
   },
   {
-    id: 6,
+    id: 5,
     image: "/store.jpg",
     title: "Store",
     category: "Web App",
@@ -120,7 +110,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/store/",
   },
   {
-    id: 7,
+    id: 6,
     image: "/foxclore.jpg",
     title: "foxclore",
     category: "Web App",
@@ -130,7 +120,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/Foxclore/",
   },
   {
-    id: 8,
+    id: 7,
     image: "acne.jpg",
     title: "Acne",
     category: "Web App",
@@ -140,7 +130,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/acne/",
   },
   {
-    id: 9,
+    id: 8,
     image: "/bondi.jpg",
     title: "Bondi",
     category: "Web App",
@@ -150,7 +140,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/bondi/",
   },
   {
-    id: 10,
+    id: 9,
     image: "/bootcamp.jpg",
     title: "Frontend Bootcamp",
     category: "Web App",
@@ -160,7 +150,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/Frontend-Bootcamp/",
   },
   {
-    id: 11,
+    id: 10,
     image: "/medcare.jpg",
     title: "Medcare",
     category: "Web App",
