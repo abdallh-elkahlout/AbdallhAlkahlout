@@ -75,7 +75,7 @@ const projects = ref([
     title: "Ellamart Store",
     category: "Web App",
     description:
-      "Ella Store: Developed using Pinia, Vue.js, and Vuetify, it features a modern and user-friendly interface. It offers precise product categorization with dedicated pages for each category, along with full shopping cart functionalities for a seamless shopping experience.",
+      "Ella Store: Developed using Vue.js, vuex, and Vuetify, it features a modern and user-friendly interface. It offers precise product categorization with dedicated pages for each category, along with full shopping cart functionalities for a seamless shopping experience.",
     gitUrl: "https://github.com/abdallh-elkahlout/ella-store",
     webUrl: "https://ella-store-smoky.vercel.app/",
   },
