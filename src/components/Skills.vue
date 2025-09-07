@@ -46,10 +46,14 @@ const Skills = ref([
   },
   {
     id: 7,
-    icon: "https://img.icons8.com/fluency/48/vite.png",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Pinialogo.svg",
   },
   {
     id: 8,
+    icon: "https://img.icons8.com/fluency/48/vite.png",
+  },
+  {
+    id: 9,
     icon: "https://img.icons8.com/?size=100&id=coFje4JDyijL&format=png&color=000000",
   },
 ]);

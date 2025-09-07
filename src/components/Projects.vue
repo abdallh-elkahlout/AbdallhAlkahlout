@@ -24,10 +24,14 @@
         <div
           class="flex flex-col justify-start p-4 md:p-6 space-y-4 md:space-y-6"
         >
-          <span
-            class="bg-primary2 w-28 text-center p-2 rounded-3xl text-black text-sm"
-            >{{ element.category }}</span
-          >
+          <div class="flex flex-wrap gap-1">
+            <span
+              v-for="(value, i) in element.tools"
+              :key="i"
+              class="bg-primary2 w-20 text-center p-2 rounded-3xl text-black text-sm"
+              >{{ value }}</span
+            >
+          </div>
           <h3 class="uppercase text-base font-semibold text-primary">
             {{ element.title }}
           </h3>
@@ -63,7 +67,7 @@ const projects = ref([
     id: 1,
     image: "/school.jpg",
     title: "School Website",
-    category: "Web App",
+    tools: ["html", "css", "js", "vue.js"],
     description:
       "The website is a comprehensive interface for a school management system, featuring sections like an introduction to the school, services, educational stages, and a contact section. It was developed using Vue.js for a modern, dynamic user experience.",
     gitUrl: "https://github.com/abdallh-elkahlout/school",
@@ -73,9 +77,9 @@ const projects = ref([
     id: 2,
     image: "/ella.png",
     title: "Ellamart Store",
-    category: "Web App",
+    tools: ["html", "css", "js", "vue.js", "vuex", "vuetify"],
     description:
-      "Ella Store: Developed using Vue.js, vuex, and Vuetify, it features a modern and user-friendly interface. It offers precise product categorization with dedicated pages for each category, along with full shopping cart functionalities for a seamless shopping experience.",
+      "Ella Store: Developed using Vue.js, vuex, and Vuetify, it features a modern and user-friendly interface. It offers precise product categorization with dedicated pages for each tools, along with full shopping cart functionalities for a seamless shopping experience.",
     gitUrl: "https://github.com/abdallh-elkahlout/ella-store",
     webUrl: "https://ella-store-smoky.vercel.app/",
   },
@@ -83,7 +87,7 @@ const projects = ref([
     id: 3,
     image: "/dashboard.png",
     title: "Simple Dashboard",
-    category: "Web App",
+    tools: ["html", "css", "js", "vue.js", "vuetify"],
     description:
       "Simple Dashboard is a minimalistic front-end design project showcasing a clean and modern user interface built with Vue.js 3 and Vuetify. It leverages Vue Router for seamless navigation between views. The project focuses on demonstrating proficiency in creating visually appealing layouts using Vuetify's component library and CSS classes, with a simple task management interface as a proof of concept. This project is ideal for showcasing front-end development skills with modern Vue.js tools",
     gitUrl: "https://github.com/abdallh-elkahlout/simple-dashboard",
@@ -91,69 +95,79 @@ const projects = ref([
   },
   {
     id: 4,
+    image: "/Aeroland.png",
+    title: "Aerolamd Page",
+    tools: ["html", "css", "js", "vue.js", "vuetify"],
+    description:
+      "A responsive Vue.js 3 landing page for executive branding services, built with Vuetify and Tailwind CSS. Features modern design with smooth navigation, mobile responsiveness, and interactive sections showcasing company services.",
+    gitUrl: "https://github.com/abdallh-elkahlout/Aeroland",
+    webUrl: "https://aeroland.vercel.app/",
+  },
+  {
+    id: 5,
     image: "/oudi.jpg",
     title: "Oudi Perfume",
-    category: "Web App",
+    tools: ["html", "css", "js", "bootstrap"],
     description:
       ' "Oudi" is a sophisticated e-commerce platform specializing in perfume sales, characterized by a clean and minimalist design crafted with HTML, CSS, JavaScript, and Bootstrap. This project was successfully developed as part of an internship program at Apex Company.',
     gitUrl: "https://github.com/abdallh-elkahlout/oudi",
     webUrl: "https://abdallh-elkahlout.github.io/oudi/",
   },
   {
-    id: 5,
+    id: 6,
     image: "/store.jpg",
     title: "Store",
-    category: "Web App",
+    tools: ["html", "css", "bootstrap"],
     description:
       "e-commerce platform, with its prototype version designed as a perfume store to facilitate hands-on training and skill development. The project was meticulously crafted using HTML,CSS,js,Bootstrap, demonstrating a strong application of web development fundamentals.",
     gitUrl: "https://github.com/abdallh-elkahlout/store",
     webUrl: "https://abdallh-elkahlout.github.io/store/",
   },
   {
-    id: 6,
+    id: 7,
     image: "/foxclore.jpg",
     title: "foxclore",
-    category: "Web App",
+    tools: ["html", "css", "bootstrap"],
     description:
       "The website was crafted during a front-end development training program, where a diverse set of skills was applied to deliver a visually appealing and user-friendly interface. The project was developed using HTML, CSS, and Bootstrap.",
     gitUrl: "https://github.com/abdallh-elkahlout/Foxclore",
     webUrl: "https://abdallh-elkahlout.github.io/Foxclore/",
   },
   {
-    id: 7,
+    id: 8,
     image: "acne.jpg",
     title: "Acne",
-    category: "Web App",
+    tools: ["html", "css", "bootstrap"],
     description:
       "The website was developed during a freelance engagement as a commissioned project, designed as a single-page platform delivering comprehensive medical information on acne. It was skillfully built using HTML, CSS, and Bootstrap.",
     gitUrl: "https://github.com/abdallh-elkahlout/acne",
     webUrl: "https://abdallh-elkahlout.github.io/acne/",
   },
   {
-    id: 8,
+    id: 9,
     image: "/bondi.jpg",
     title: "Bondi",
-    category: "Web App",
+   tools: ["html", "css", "bootstrap"],
     description:
       "The website was crafted during a front-end development training program, where a diverse set of skills was applied to deliver a visually appealing and user-friendly interface. The project was developed using HTML, CSS, and Bootstrap.",
     gitUrl: "https://github.com/abdallh-elkahlout/bondi",
     webUrl: "https://abdallh-elkahlout.github.io/bondi/",
   },
   {
-    id: 9,
+    id: 10,
     image: "/bootcamp.jpg",
     title: "Frontend Bootcamp",
-    category: "Web App",
+    tools: ["html", "css", "bootstrap"],
     description:
       "The website was crafted during a front-end development training program, where a diverse set of skills was applied to deliver a visually appealing and user-friendly interface. The project was developed using HTML, CSS, and Bootstrap.",
     gitUrl: "https://github.com/abdallh-elkahlout/Frontend-Bootcamp",
     webUrl: "https://abdallh-elkahlout.github.io/Frontend-Bootcamp/",
   },
   {
-    id: 10,
+    id: 11,
     image: "/medcare.jpg",
     title: "Medcare",
-    category: "Web App",
+    tools: ["html", "css"],
     description:
       "A medical website developed during the initial phase of a Full Stack web development course, aimed at showcasing the skills acquired in front-end design. The website was built using only HTML and CSS, and features multiple sections presented with diverse layout styles.",
     gitUrl: "https://github.com/abdallh-elkahlout/medcare",
