@@ -85,6 +85,16 @@ const projects = ref([
   },
   {
     id: 3,
+    image: "/adminPanel.png",
+    title: "Admin Panel",
+    tools: ["html", "css", "js", "vue.js", "tailwind"],
+    description:
+      "A responsive Vue 3 + Vite dashboard that showcases analytics widgets: theme-aware navigation, sidebar with collapsible menus, stat cards, interactive line/doughnut charts (Chart.js), recent orders with status badges, activity timeline, and additional stacked bar insights—all styled via Tailwind 4 + DaisyUI.",
+    gitUrl: "https://github.com/abdallh-elkahlout/AdminPanel",
+    webUrl: "https://admin-panel-fawn-two.vercel.app/",
+  },
+  {
+    id: 4,
     image: "/dashboard.png",
     title: "Simple Dashboard",
     tools: ["html", "css", "js", "vue.js", "vuetify"],
@@ -94,7 +104,7 @@ const projects = ref([
     webUrl: "https://simple-dashboard-pink.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: "/Aeroland.png",
     title: "Aerolamd Page",
     tools: ["html", "css", "js", "vue.js", "vuetify"],
@@ -104,7 +114,7 @@ const projects = ref([
     webUrl: "https://aeroland.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     image: "/oudi.jpg",
     title: "Oudi Perfume",
     tools: ["html", "css", "js", "bootstrap"],
@@ -114,7 +124,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/oudi/",
   },
   {
-    id: 6,
+    id: 7,
     image: "/store.jpg",
     title: "Store",
     tools: ["html", "css", "bootstrap"],
@@ -124,7 +134,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/store/",
   },
   {
-    id: 7,
+    id: 8,
     image: "/foxclore.jpg",
     title: "foxclore",
     tools: ["html", "css", "bootstrap"],
@@ -134,7 +144,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/Foxclore/",
   },
   {
-    id: 8,
+    id: 9,
     image: "acne.jpg",
     title: "Acne",
     tools: ["html", "css", "bootstrap"],
@@ -144,17 +154,17 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/acne/",
   },
   {
-    id: 9,
+    id: 10,
     image: "/bondi.jpg",
     title: "Bondi",
-   tools: ["html", "css", "bootstrap"],
+    tools: ["html", "css", "bootstrap"],
     description:
       "The website was crafted during a front-end development training program, where a diverse set of skills was applied to deliver a visually appealing and user-friendly interface. The project was developed using HTML, CSS, and Bootstrap.",
     gitUrl: "https://github.com/abdallh-elkahlout/bondi",
     webUrl: "https://abdallh-elkahlout.github.io/bondi/",
   },
   {
-    id: 10,
+    id: 11,
     image: "/bootcamp.jpg",
     title: "Frontend Bootcamp",
     tools: ["html", "css", "bootstrap"],
@@ -164,7 +174,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/Frontend-Bootcamp/",
   },
   {
-    id: 11,
+    id: 12,
     image: "/medcare.jpg",
     title: "Medcare",
     tools: ["html", "css"],
