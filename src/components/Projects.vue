@@ -65,16 +65,6 @@ import { ref } from "vue";
 const projects = ref([
   {
     id: 1,
-    image: "/school.jpg",
-    title: "School Website",
-    tools: ["html", "css", "js", "vue.js"],
-    description:
-      "The website is a comprehensive interface for a school management system, featuring sections like an introduction to the school, services, educational stages, and a contact section. It was developed using Vue.js for a modern, dynamic user experience.",
-    gitUrl: "https://github.com/abdallh-elkahlout/school",
-    webUrl: "https://school-theta-rust.vercel.app",
-  },
-  {
-    id: 2,
     image: "/ella.png",
     title: "Ellamart Store",
     tools: ["html", "css", "js", "vue.js", "vuex", "vuetify"],
@@ -84,7 +74,28 @@ const projects = ref([
     webUrl: "https://ella-store-smoky.vercel.app/",
   },
   {
+    id: 2,
+    image: "/meals.png",
+    title: "Meals Gallery",
+    tools: ["html", "css", "js", "vue.js", "pinia", "axios Api"],
+    description:
+      "A Vue 3 UI app that showcases recipes from TheMealDB API. Users can explore meals randomly or by name, letter, ingredient, or category, with detailed pages per meal covering ingredients, instructions, and quick links to videos and source references",
+    gitUrl: "https://github.com/abdallh-elkahlout/meals-search",
+    webUrl: "https://meals-search-peach.vercel.app/",
+  },
+  {
     id: 3,
+    image: "/school.jpg",
+    title: "School Website",
+    tools: ["html", "css", "js", "vue.js"],
+    description:
+      "The website is a comprehensive interface for a school management system, featuring sections like an introduction to the school, services, educational stages, and a contact section. It was developed using Vue.js for a modern, dynamic user experience.",
+    gitUrl: "https://github.com/abdallh-elkahlout/school",
+    webUrl: "https://school-theta-rust.vercel.app",
+  },
+
+  {
+    id: 4,
     image: "/adminPanel.png",
     title: "Admin Panel",
     tools: ["html", "css", "js", "vue.js", "tailwind"],
@@ -94,7 +105,7 @@ const projects = ref([
     webUrl: "https://admin-panel-fawn-two.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: "/dashboard.png",
     title: "Simple Dashboard",
     tools: ["html", "css", "js", "vue.js", "vuetify"],
@@ -104,7 +115,7 @@ const projects = ref([
     webUrl: "https://simple-dashboard-pink.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     image: "/Aeroland.png",
     title: "Aerolamd Page",
     tools: ["html", "css", "js", "vue.js", "vuetify"],
@@ -114,7 +125,7 @@ const projects = ref([
     webUrl: "https://aeroland.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: "/oudi.jpg",
     title: "Oudi Perfume",
     tools: ["html", "css", "js", "bootstrap"],
@@ -124,17 +135,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/oudi/",
   },
   {
-    id: 7,
-    image: "/store.jpg",
-    title: "Store",
-    tools: ["html", "css", "bootstrap"],
-    description:
-      "e-commerce platform, with its prototype version designed as a perfume store to facilitate hands-on training and skill development. The project was meticulously crafted using HTML,CSS,js,Bootstrap, demonstrating a strong application of web development fundamentals.",
-    gitUrl: "https://github.com/abdallh-elkahlout/store",
-    webUrl: "https://abdallh-elkahlout.github.io/store/",
-  },
-  {
-    id: 8,
+    id: 9,
     image: "/foxclore.jpg",
     title: "foxclore",
     tools: ["html", "css", "bootstrap"],
@@ -144,7 +145,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/Foxclore/",
   },
   {
-    id: 9,
+    id: 10,
     image: "acne.jpg",
     title: "Acne",
     tools: ["html", "css", "bootstrap"],
@@ -154,7 +155,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/acne/",
   },
   {
-    id: 10,
+    id: 11,
     image: "/bondi.jpg",
     title: "Bondi",
     tools: ["html", "css", "bootstrap"],
@@ -164,7 +165,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/bondi/",
   },
   {
-    id: 11,
+    id: 12,
     image: "/bootcamp.jpg",
     title: "Frontend Bootcamp",
     tools: ["html", "css", "bootstrap"],
@@ -174,7 +175,7 @@ const projects = ref([
     webUrl: "https://abdallh-elkahlout.github.io/Frontend-Bootcamp/",
   },
   {
-    id: 12,
+    id: 13,
     image: "/medcare.jpg",
     title: "Medcare",
     tools: ["html", "css"],
